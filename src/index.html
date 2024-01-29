@@ -20,13 +20,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body class="bg-success text-white">
     <div class="container-fluid text-center">
       <div class="col">
         <div class="row mt-3">
-          <h1>Random Card Generator</h1>
+          <h1 class="text-dark" >Random Card Generator</h1>
           <!-- <i style="color:red;" class="bi bi-heart-fill fa-10x"></i>
           <i style="color:red;" class="bi bi-suit-diamond-fill fa-10x"></i>
           <i style="color:black;" class="bi bi-suit-spade-fill fa-10x"></i>
@@ -34,7 +38,7 @@
         </div>
         <div class="row mt-3 d-flex justify-content-center">
           <div id="cardFrame"
-            class="shadow
+            class=" animate__animated animate__flipInY shadow 
             mb-5
             bg-white"
             style=" width: 35%;
@@ -42,9 +46,9 @@
                       max-width: 350px;
                       min-width: 215px;"
           >
-            <div id='suitOne' class="d-flex flex-row"></div>
+            <div id='suitOne' class="d-flex flex-row animate__animated animate__zoomIn"></div>
             <div
-              class="text-dark"
+              class="text-dark animate__animated animate__zoomIn"
               style="min-height: 100px;
             max-height: 400px;"
             >
@@ -55,9 +59,9 @@
                 8
               </h1>
             </div>
-            <div id="suitTwo" class="d-flex flex-row-reverse"></div>
+            <div id="suitTwo" class="d-flex flex-row-reverse animate__animatedanimate__zoomIn"></div>
           </div>
-          <div class="container text-center">
+          <div class="container text-center animate__animated animate__zoomIn">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
               <div class="col">
                 <button id="diamontBtn" type="button" class="btn btn-danger m-2">

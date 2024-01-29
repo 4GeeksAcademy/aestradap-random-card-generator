@@ -4,7 +4,6 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
-import { Alert } from "bootstrap";
 
 const value = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
 const suite = [
@@ -59,7 +58,6 @@ window.onload = function() {
     const widthInput = document.getElementById("widthInput");
     const heightInput = document.getElementById("heightInput");
     const cardFrame = document.getElementById("cardFrame");
-    console.log(`${widthInput.value}px`);
     cardFrame.style.width = `${widthInput.value}px`;
   }
 
